@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+}
+
+.options {
+  width: 200px;
+  background-color: #0073e6;
+  padding: 20px 20px;
+  /* display: flex; */
+}
+
+.options > span {
+  font-size: 16px;
+  color: #fff;
+}
+
+.options > button {
+  border: none;
+  color: #fff;
+  background: #1a8cff;
+  transition: all 500ms;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: center;
+  width: 70px;
+  height: 30px;
+  margin: 0 2px;
+}
+
+.options > button:hover {
+  background: #0073e6;
+  transition: all 500ms;
+}
+
+.options > button:active {
+  background: #0066cc;
+  transition: all 500ms;
+}
+
+#options--active {
+  background: #339966;
+  width: 90px;
+}
+
+#options--active:hover {
+  background: #26734d;
+  transition: all 500ms;
+}
+
+#options--active:active {
+  background: #206040;
+  transition: all 500ms;
+}
+
+#options--active.is-active {
+  background: #990000;
+}
+
+#options--active.is-active:hover {
+  background: #800000;
+  transition: all 500ms;
+}
+
+#options--active.is-active:active {
+  background: #660000;
+  transition: all 500ms;
+}
