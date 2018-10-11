@@ -2,16 +2,16 @@
   "manifest_version": 2,
   "version": "0.0.1",
   "name": "Daciolo 51",
-  "description": "Glória a Deux!",
+  "description": "Troque todos os textos e imagens por fotos e frases do nosso grande Deputado Cabo Daciolo, para honra e glória do Senhor Jesux.",
   "author": "Leonardo Dionizio",
   "permissions": ["tabs"],
-  "browser_action": {
+  /*"browser_action": {
     "default_popup": "popup.html"
-  },
+  },*/
   "content_scripts": [
     {
       "matches": ["http://*/*", "https://*/*"],
-      "js": ["js/jquery-3.3.1.min.js", "js/chrome.js"],
+      "js": ["js/jquery.js", "js/chrome.js"],
       "run_at": "document_end",
       "persistent": false
     }
